@@ -4,7 +4,7 @@ This package provides access to Anthropic's safety-first language model APIs.
 
 For more information on our APIs, please check the confidential documentation portal.
 
-**Note that this package only officially supports Node 16+.**
+**Note that this package officially supports Node version 16 and above. However, as of v0.5.4, Node 16 users must supply a fetch polyfill. Node 17+ users will use the built-in fetch.**
 
 ## Installation
 
