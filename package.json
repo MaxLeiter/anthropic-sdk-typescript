@@ -19,8 +19,7 @@
     "example:cancellation": "tsc --build && node ./build/examples/cancellation.js"
   },
   "dependencies": {
-    "@fortaine/fetch-event-source": "^3.0.6",
-    "cross-fetch": "^3.1.5"
+    "@fortaine/fetch-event-source": "^3.0.6"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
@@ -30,5 +29,8 @@
     "eslint": "^8.33.0",
     "prettier": "^2.8.3",
     "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
