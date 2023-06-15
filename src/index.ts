@@ -1,5 +1,5 @@
 import { fetchEventSource } from "@fortaine/fetch-event-source";
-import fetch from "cross-fetch";
+import fetch from "fetch";
 
 export type SamplingParameters = {
   prompt: string;
